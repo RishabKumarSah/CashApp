@@ -1,4 +1,4 @@
-# Mercor-Frontend-Project(CashApp)
+# CashApp
 
 Welcome! This project has been created by Rishab Kumar Sah from this [design file](https://www.figma.com/file/jW1S1oR0ClbGPadIsYx6Dm/Mercor-Frontend-Project).
 

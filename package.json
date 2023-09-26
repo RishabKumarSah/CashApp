@@ -1,0 +1,31 @@
+{
+  "name": "cashapp",
+  "version": "1.0.0",
+  "homepage":"http://RishabKumarSah.github.io/CashApp",
+  "description": "A React project which is design in figma, the design-to-code",
+  "source": "./index.html",
+  
+  "scripts": {
+    "build": "parcel build --public-url ./ --no-scope-hoist",
+    "dev": "parcel",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "gh-pages": "^6.0.0",
+    "htmlnano": "2.0.3",
+    "parcel": "^2.8.0",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "process": "^0.11.10"
+  }
+}
